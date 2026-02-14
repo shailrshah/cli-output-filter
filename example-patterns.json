@@ -1,0 +1,17 @@
+[
+  {
+    "name": "debug-logs",
+    "pattern": "^DEBUG:",
+    "streams": ["stdout", "stderr"]
+  },
+  {
+    "name": "info-logs",
+    "pattern": "^INFO:",
+    "streams": ["stdout", "stderr"]
+  },
+  {
+    "name": "verbose-logs",
+    "pattern": "^VERBOSE:",
+    "streams": ["stdout"]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "@shailrshah/cli-output-filter",
+  "version": "1.0.0",
+  "description": "A CLI tool for filtering repetitive output from commands while preserving important information",
+  "license": "MIT",
+  "author": "shailrshah",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest --collectCoverage",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "main": "./dist/filter-output.js",
+  "bin": {
+    "filter-output": "dist/filter-output.js"
+  },
+  "files": [
+    "dist/",
+    "!**/__tests__/**"
+  ],
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.5",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "~5.4.5"
+  }
+}
