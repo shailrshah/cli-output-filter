@@ -1,6 +1,6 @@
 {
   "name": "@shailrshah/cli-output-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool for filtering repetitive output from commands while preserving important information",
   "license": "MIT",
   "author": "shailrshah",
