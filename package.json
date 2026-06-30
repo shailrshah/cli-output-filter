@@ -19,6 +19,7 @@
   },
   "files": [
     "dist/",
+    "NOTICE",
     "!**/__tests__/**"
   ],
   "devDependencies": {
@@ -32,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/shailrshah/cli-output-filter"
-  }
+  },
+  "homepage": "https://github.com/shailrshah/cli-output-filter"
 }
